@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Search_Test Suite,Edge Chromium 121,,,28-01-2024 18:18:19,28-01-2024 18:19:29,1m - 10.125s,PASSED
+,,,,,,,
+Test Cases/Amazon_Record and Playback_Mode/TC_Amazon_Home_Validate Search Item-001,Edge Chromium 121,,,28-01-2024 18:18:56,28-01-2024 18:19:29,33.420s,PASSED
+Start setup action : setupTestCase,Edge Chromium 121,,,28-01-2024 18:18:56,28-01-2024 18:18:56,0.005s,PASSED
+"openBrowser("""")",Edge Chromium 121,,,28-01-2024 18:18:57,28-01-2024 18:19:04,7.125s,PASSED
+"navigateToUrl(""https://www.amazon.in/"")",Edge Chromium 121,,,28-01-2024 18:19:04,28-01-2024 18:19:23,19.443s,PASSED
+"selectOptionByLabel(findTestObject(""Object Repository/Amazon_Pages_SearchItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _a62561""), book, true)",Edge Chromium 121,,,28-01-2024 18:19:23,28-01-2024 18:19:28,4.661s,PASSED
+"setText(findTestObject(""Object Repository/Amazon_Pages_SearchItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_field-keywords""), item)",Edge Chromium 121,,,28-01-2024 18:19:28,28-01-2024 18:19:29,1.002s,PASSED
+closeBrowser(),Edge Chromium 121,,,28-01-2024 18:19:29,28-01-2024 18:19:29,0.431s,PASSED
+Start tear down : tearDownTestCase,Edge Chromium 121,,,28-01-2024 18:19:29,28-01-2024 18:19:29,0.006s,PASSED

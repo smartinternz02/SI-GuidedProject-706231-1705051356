@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Search_Test Suite" time="70.125" tests="1" failures="0" errors="0">
+   <testsuite name="Search_Test Suite" tests="1" failures="0" errors="0" time="70.125" skipped="0" timestamp="28-01-2024T18:18:19" hostname="HP - LAPTOP-UTD793V8" id="Test Suites/Test Listener/Search_Test Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\HP\\Katalon Studio\\Katalon_priya_more\\Reports\\20240128_181814\\Test Listener\\Search_Test Suite\\20240128_181814"/>
+         <property name="logFiles" value="C:\\Users\\HP\\Katalon Studio\\Katalon_priya_more\\Reports\\20240128_181814\\Test Listener\\Search_Test Suite\\20240128_181814\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="HP - LAPTOP-UTD793V8"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.2.0.212"/>
+         <property name="browser" value="Edge Chromium 121"/>
+         <property name="hostAddress" value="192.168.50.41"/>
+         <property name="sessionId" value="081c935c4a7f030679814057ee8ec5ec"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Amazon_Record and Playback_Mode/TC_Amazon_Home_Validate Search Item-001" time="33.42" classname="Test Cases/Amazon_Record and Playback_Mode/TC_Amazon_Home_Validate Search Item-001" status="PASSED">
+         <system-out><![CDATA[28-01-2024T18:18:56 - [TEST_CASE][PASSED] - Test Cases/Amazon_Record and Playback_Mode/TC_Amazon_Home_Validate Search Item-001: Test Cases/Amazon_Record and Playback_Mode/TC_Amazon_Home_Validate Search Item-001
+
+28-01-2024T18:18:56 - [TEST_STEP][PASSED] - Start setup action : setupTestCase: Method 'setupTestCase' complete successfully
+
+28-01-2024T18:18:56 - [MESSAGE][PASSED] - Method 'setupTestCase' complete successfully
+
+28-01-2024T18:18:57 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+28-01-2024T18:18:57 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+28-01-2024T18:19:00 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+28-01-2024T18:19:01 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+28-01-2024T18:19:04 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+28-01-2024T18:19:04 - [TEST_STEP][PASSED] - navigateToUrl("https://www.amazon.in/"): Navigate to 'https://www.amazon.in/' successfully
+
+28-01-2024T18:19:23 - [MESSAGE][PASSED] - Navigate to 'https://www.amazon.in/' successfully
+
+28-01-2024T18:19:23 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Object Repository/Amazon_Pages_SearchItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _a62561"), book, true): All options with label 'Books' are selected in object 'Object Repository/Amazon_Pages_SearchItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _a62561'  using regular expression
+
+28-01-2024T18:19:28 - [MESSAGE][PASSED] - All options with label 'Books' are selected in object 'Object Repository/Amazon_Pages_SearchItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _a62561'  using regular expression
+
+28-01-2024T18:19:28 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Amazon_Pages_SearchItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_field-keywords"), item): Text 'Dan vinci code' is set on object 'Object Repository/Amazon_Pages_SearchItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_field-keywords'
+
+28-01-2024T18:19:29 - [MESSAGE][PASSED] - Text 'Dan vinci code' is set on object 'Object Repository/Amazon_Pages_SearchItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_field-keywords'
+
+28-01-2024T18:19:29 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+28-01-2024T18:19:29 - [MESSAGE][PASSED] - Browser is closed
+
+28-01-2024T18:19:29 - [TEST_STEP][PASSED] - Start tear down : tearDownTestCase: Method 'tearDownTestCase' complete successfully
+
+28-01-2024T18:19:29 - [MESSAGE][PASSED] - Method 'tearDownTestCase' complete successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[28-01-2024T18:18:19 - [TEST_SUITE][PASSED] - Search_Test Suite: Test Cases/Amazon_Record and Playback_Mode/TC_Amazon_Home_Validate Search Item-001]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

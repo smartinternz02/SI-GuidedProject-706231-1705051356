@@ -1,0 +1,24 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/span_All",
+      "brokenLocator": "//a[@id\u003d\u0027nav-hamburger-menu\u0027]/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "span.hm-icon-label",
+      "proposedLocatorMethod": "CSS",
+      "recoveryMethod": "CSS",
+      "pathToScreenshot": "Reports/20240128_182202/Test Listener/TL_Login/20240128_182202/Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/span_All_CSS.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/a_Sign Out",
+      "brokenLocator": "//a[@onclick\u003d\"$Nav.getNow(\u0027signInRedirect\u0027)(\u0027nav_em_hd_re_signin\u0027, \u0027/gp/flex/sign-out.html?action\u003dsign-out\u0026path\u003d%2Fgp%2Fhomepage.html%3F_encoding%3DUTF8%26ref_%3Dnavm_em_signin\u0026signIn\u003d1\u0026useRedirectOnSuccess\u003d1\u0026ref_\u003dnav_em_signout_0_1_1_36\u0027, \u0027nav_em_hd_clc_signin_0_1_1_36\u0027)\"]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[@id\u003d\u0027hmenu-content\u0027]/ul/li[31]/a",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20240128_182202/Test Listener/TL_Login/20240128_182202/Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/a_Sign Out_idRelative.png"
+    }
+  ]
+}

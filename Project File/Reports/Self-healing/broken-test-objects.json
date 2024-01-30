@@ -1,0 +1,54 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Amazon_Pages_AddCard_OR/Page_Amazon.in  da vinci code/img_Shop now__bXVsd_image_1pfbQ",
+      "brokenLocator": "//div[@id\u003d\u0027CardInstance3lgSql3ApB0Oi6WCeLWkng\u0027]/div/div[2]/div/div/div/a/div/img",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//img[@alt\u003d\u0027The Khandavaprastha Conspiracy: a fast paced thriller that uses science and history to explain one of the deepest mysteries of the Mahabharata (Book 3 of The Mahabharata Quest series)\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Amazon_Pages_AddCard_OR/Page_Amazon.in  da vinci code/img_Shop now__bXVsd_image_1pfbQ_img.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Validate_Button_by_Value/Page_Amazon Sign In/input_Email or mobile phone number_email",
+      "brokenLocator": "//input[@id\u003d\u0027ap_email\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div/div/div/div/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": ""
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/a_Sign Out",
+      "brokenLocator": "//a[@onclick\u003d\"$Nav.getNow(\u0027signInRedirect\u0027)(\u0027nav_em_hd_re_signin\u0027, \u0027/gp/flex/sign-out.html?action\u003dsign-out\u0026path\u003d%2Fgp%2Fhomepage.html%3F_encoding%3DUTF8%26ref_%3Dnavm_em_signin\u0026signIn\u003d1\u0026useRedirectOnSuccess\u003d1\u0026ref_\u003dnav_em_signout_0_1_1_36\u0027, \u0027nav_em_hd_clc_signin_0_1_1_36\u0027)\"]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[@id\u003d\u0027hmenu-content\u0027]/ul/li[31]/a",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/a_Sign Out_idRelative.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Amazon_pages_RegistrationItem_OR/Page_Amazon Sign In/a_Create your Amazon account",
+      "brokenLocator": "//a[@id\u003d\u0027createAccountSubmit\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//span/a",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Amazon_pages_RegistrationItem_OR/Page_Amazon Sign In/a_Create your Amazon account_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/span_All",
+      "brokenLocator": "//a[@id\u003d\u0027nav-hamburger-menu\u0027]/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "span.hm-icon-label",
+      "proposedLocatorMethod": "CSS",
+      "recoveryMethod": "CSS",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/span_All_CSS.png"
+    }
+  ]
+}

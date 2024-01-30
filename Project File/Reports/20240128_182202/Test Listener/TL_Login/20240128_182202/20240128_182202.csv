@@ -1,0 +1,14 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TL_Login,Edge Chromium 121,,,28-01-2024 18:22:08,28-01-2024 18:24:23,2m - 15.334s,PASSED
+,,,,,,,
+Test Cases/TestListener/TC_Login_successful,Edge Chromium 121,,,28-01-2024 18:22:32,28-01-2024 18:24:23,1m - 50.579s,PASSED
+"openBrowser("""")",Edge Chromium 121,,,28-01-2024 18:22:33,28-01-2024 18:22:36,3.796s,PASSED
+"navigateToUrl(""https://www.amazon.in/"")",Edge Chromium 121,,,28-01-2024 18:22:36,28-01-2024 18:22:51,14.927s,PASSED
+"click(findTestObject(""Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/span_Hello, sign in""))",Edge Chromium 121,,,28-01-2024 18:22:51,28-01-2024 18:22:56,4.204s,PASSED
+"setText(findTestObject(""Object Repository/Page_Amazon Sign In/input_Email or mobile phone number_email""), ""7798976022"")",Edge Chromium 121,,,28-01-2024 18:22:56,28-01-2024 18:22:58,2.050s,PASSED
+"click(findTestObject(""Object Repository/Page_Amazon Sign In/input_Enter your email or mobile phone numb_fc7402""))",Edge Chromium 121,,,28-01-2024 18:22:58,28-01-2024 18:23:01,3.384s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Amazon Sign In/input_Forgot Password_password""), ""Q1r2Exj96yutof03rfSzoA=="")",Edge Chromium 121,,,28-01-2024 18:23:01,28-01-2024 18:23:02,0.596s,PASSED
+"click(findTestObject(""Object Repository/Page_Amazon Sign In/input_Enter your password_signInSubmit""))",Edge Chromium 121,,,28-01-2024 18:23:02,28-01-2024 18:23:02,0.407s,PASSED
+"click(findTestObject(""Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/span_All""))",Edge Chromium 121,,,28-01-2024 18:23:02,28-01-2024 18:23:47,45.104s,PASSED
+"click(findTestObject(""Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/a_Sign Out""))",Edge Chromium 121,,,28-01-2024 18:23:47,28-01-2024 18:24:21,34.279s,PASSED
+closeBrowser(),Edge Chromium 121,,,28-01-2024 18:24:21,28-01-2024 18:24:23,1.607s,PASSED

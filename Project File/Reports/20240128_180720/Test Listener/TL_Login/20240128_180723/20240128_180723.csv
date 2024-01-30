@@ -1,0 +1,6 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TL_Login,null,,,28-01-2024 18:07:48,28-01-2024 18:12:04,4m - 16.209s,FAILED
+,,,,,,,
+Test Cases/TestListener/TC_Login_successful,null,,,28-01-2024 18:11:59,28-01-2024 18:12:04,4.947s,FAILED
+"openBrowser("""")",null,,,28-01-2024 18:11:59,28-01-2024 18:12:04,4.878s,PASSED
+"navigateToUrl(""https://www.amazon.in/"")",null,,,28-01-2024 18:12:04,28-01-2024 18:12:04,0.039s,FAILED
