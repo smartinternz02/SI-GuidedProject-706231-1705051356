@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkpoint>
+   <description></description>
+   <name>Checkpoint</name>
+   <tag></tag>
+   <source-info>
+      <is-from-test-data>true</is-from-test-data>
+      <source-url>Data Files/Test_ckeckPoint</source-url>
+   </source-info>
+   <taken-date>2024-01-24T22:17:23.463+05:30</taken-date>
+   <column-names>
+      <column-name>mobile</column-name>
+      <column-name>password</column-name>
+      <column-name>confinm</column-name>
+   </column-names>
+   <checkpoint-data><![CDATA[[
+  [
+    {
+      "value": "7798976022",
+      "checked": false
+    },
+    {
+      "value": "Priya189010",
+      "checked": false
+    },
+    {
+      "value": "login successful",
+      "checked": false
+    }
+  ]
+]]]></checkpoint-data>
+</checkpoint>
